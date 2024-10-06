@@ -1,6 +1,4 @@
-CREATE DATABASE Xworkzdb;
-CREATE TABLE Xworkzdb.student(id int, name varchar(20),age int,address varchar(25));
-desc Xworkzdb.student;
+
 CREATE DATABASE institute;
 CREATE TABLE institute_info(institute_id int,course_name varchar(25));
 desc institute_info;
