@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68613bb9067ea3e7591350e309ee488267940fa2
 CREATE DATABASE institute;
 CREATE TABLE institute_info(institute_id int,course_name varchar(25));
 desc institute_info;
