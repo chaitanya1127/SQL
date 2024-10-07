@@ -12,21 +12,6 @@ CREATE TABLE AIRPORT_DETAILS (Airport_ID INT ,
     Number_of_Restaurants INT);
     DESC AIRPORT_DETAILS;
     SELECT * FROM AIRPORT_DETAILS;
-    -- Create the AIRPORT_DETAILS table
-CREATE TABLE AIRPORT_DETAILS (
-    Airport_ID INT,
-    Airport_Name VARCHAR(35),
-    City VARCHAR(25),
-    Country VARCHAR(30),
-    Terminal_Count INT,
-    Passenger_Capacity INT,
-    Parking_Capacity INT,
-    Number_of_Gates_In_Airport INT,
-    Number_of_Shops INT,
-    Number_of_Restaurants INT
-);
-
--- Insert 12 values into the table
 INSERT INTO AIRPORT_DETAILS VALUES(1, 'Kempegowda International Airport ', 'Bengaluru', 'India', 9, 80000000, 15000, 132, 50, 60),
 (2, 'Rajiv Gandhi International Airport', 'Hyderbad', 'India', 5, 76000000, 12000, 140, 60, 70),
 (3, 'Changi Airport', 'Singapore', 'Singapore', 4, 68000000, 10000, 120, 55, 65),
